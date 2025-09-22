@@ -1,4 +1,5 @@
-# Clase Producto
+# Ejercico 3 - Guia de Estudio N1
+
 class Producto:
     def __init__(self, nombre, precio, cantidad, codigo):
         self.nombre = nombre
@@ -21,7 +22,7 @@ class Producto:
         return f"Producto: {self.nombre}, Código: {self.codigo}, Precio: ${self.precio}, Cantidad: {self.cantidad}, Historial: {self.historial}"
 
 
-# Clase Inventario
+
 class Inventario:
     def __init__(self):
         self.productos = {} 
